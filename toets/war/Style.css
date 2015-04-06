@@ -1,0 +1,53 @@
+@CHARSET "ISO-8859-1";
+div.autokader {
+	float: left;
+	margin: 1em;
+	width: 220px;
+	height: 140px;
+	border: 1px solid black;
+	border-radius: 5px;
+	font-weight: bold;
+	text-decoration: none;
+	position: relative;
+}
+div.autokader img {
+	width: 120px;
+	margin:0;
+	position:absolute;
+	bottom: 0;
+	left: 0;
+}
+
+div.autokader p.merktype {
+	color: #FFFFFF;
+	background-color: #808080;
+	text-align: center;
+}
+div.autokader p.prijs {
+	color: #800000;
+	text-align: right;
+	margin-right: 1em;
+}
+div#autoselectie {
+	max-width: 1200px;
+}
+
+div#container{
+	max-width:1000px;
+}
+.image{
+width:100px;
+position:absolute;
+margin-top:43%;
+margin-left:-46em;
+}
+
+form{
+	margin-left:1em;
+}
+
+label{
+	margin-left:1em;
+	color:white;
+}
+</style>
